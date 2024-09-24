@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Plan de Acción</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+      color: #333;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 2rem;
+      color: #4CAF50;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 800px;
+      background: white;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 20px;
+    }
+
+    th, td {
+      padding: 12px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background-color: #4CAF50;
+      color: white;
+    }
+
+    td.priority.alta {
+      color: #e53935;
+      font-weight: bold;
+    }
+
+    td.priority.media {
+      color: #ffb300;
+      font-weight: bold;
+    }
+
+    td.priority.baja {
+      color: #43a047;
+      font-weight: bold;
+    }
+
+    .text-section {
+      padding: 15px;
+      background-color: #fff;
+      border-radius: 5px;
+      border: 1px solid #ddd;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      margin-top: 20px;
+      color: #777;
+      font-size: 0.9rem;
+    }
+
+    .text-list {
+      margin: 15px 0;
+      padding-left: 20px;
+    }
+
+    .text-list li {
+      margin-bottom: 10px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <h1>Plan de Acción</h1>
+
+  <div class="container">
+    <h2>Cosas por hacer</h2>
+    <ul class="text-list">
+      <li>a establecer.</li>
+      <li>a establecer.</li>
+      <li>a establecer.</li>
+    </ul>
+
+    <h2>Tareas hechas</h2>
+    <div class="text-section">
+      <p>- organigrama.</p>
+      <p>- introduccion a la descripcion general.</p>
+      <p>- caracteristicas de la empresa.</p>
+      <p>- costos y pronostico de ventas.</p>
+      <p>- zona del proyecto.</p>
+    </div>
+
+    <h2>Tabla de Tareas Asignadas</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Encargado</th>
+          <th>Estado</th>
+          <th>Prioridad</th>
+          <th>Tarea</th>
+          <th>Observaciones</th>
+          <th>fecha</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <!-- quien se encarga -->
+          <td>abigail</td>
+
+           <!-- que progreso tiene -->
+          <td>En Progreso</td>
+
+           <!-- la prioridad -->
+          <td class="priority media">media</td>
+
+           <!-- tarea -->
+          <td>realizar en lay out</td>
+
+           <!-- informe -->
+          <td>hacer plano de los procesos</td>
+
+           <!-- fecha -->
+          <td>30/9/2024</td>
+        </tr>
+        <tr>
+          <td>grupo</td>
+          <td>pendiante</td>
+          <td class="priority alta">alta</td>
+          <td>maqueta del proyecto</td>
+          <td>realizar antes de la feria que es el 18</td>
+          <td>indefinido</td>
+        </tr>
+        <tr>
+          <td>Ezequiel</td>
+          <td>en progreso</td>
+          <td class="priority media">media</td>
+          <td>carpeta de campo</td>
+          <td>recopilar todos los datos posibles</td>
+          <td>indefinido</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="footer">
+    <p>© 2024 Plan de Acción - Gestión de Tareas</p>
+  </div>
+</body>
+</html>
+<!-- las prioridades son "priority media" "priority alta" "priority baja" -->
+ <!-- parametros indefinido en fecha pendiente y en progreso en estado -->
